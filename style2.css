@@ -1,0 +1,54 @@
+
+#container {
+	width:80%;
+	height:500px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#F1F1F1;
+	text-align:center;
+}
+
+#fields {
+	margin-top:100px;
+	width:60%;
+	float:left;
+
+}
+
+#fields h3 {
+	font-size:30px;
+}
+#photo {
+	height:500px;
+	float:right;
+}
+
+input{
+	background-color: #F1F1F1;
+	border:none;
+	font-size:12px;
+}
+
+input[type=text], input[type=password] {
+	border-bottom: 1px solid black;
+}
+
+input[type=submit]{
+	font-size:25px;
+	font-family: 'simplificasimplifica';
+}
+
+input[type=submit]:hover{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+

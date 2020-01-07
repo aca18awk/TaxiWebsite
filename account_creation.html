@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="header&footer.css">
+	<link rel="stylesheet" href="style2.css">
+    <title>New account </title>
+</head>
+
+<body>
+	<header>
+		<div> <a href="hello.html"><img id="logo" src="images/logo.png" alt="Logo of the page"></a></div>
+		<div id="company"><p>TWEET A RIDE</p></div>
+		<div id="navigation">
+	        <p><a href="sign_in.html">Sign in</a></p>
+			<p><a href="account_creation.html">Create account</a></p>
+		</div>
+	</header>
+	
+	<main>
+	
+		<div id="container">
+			<div id="fields">
+				<h3>CREATE AN ACCOUNT:</h3>
+				<form method="post" action="account_creation.php">
+				 
+					<p>Username:
+					  <input type="text" name="username" value=""/> 
+					</p>
+					
+					<p>Twitter Handle:
+					  <input type="text" name="twitter_handle" value=""/>
+					</p>
+
+					<p>Name:
+					  <input type="text" name="name" value=""/>
+					</p>
+
+					<p>Password:
+					  <input type="password" name="password" value=""/>
+					</p>
+					<br><br>
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+			
+			<div><img id="photo" src="images/4.jpg" alt="Picture of taxi"></div>
+		</div>
+	
+	</main>
+	
+	
+	<footer>
+		&copy; Tweet a Ride, 2019
+	</footer>
+	
+</body>
+</html>
